@@ -26,6 +26,7 @@ Os códigos foram divididos em *Jupyter Notebooks* focados em diferentes etapas:
 * `soc-sign-bitcoinalpha.csv`: Base de dados bruta original.
 * `grafo_sem_tempo.csv`: Base processada contendo a estrutura final `(Origem, Destino, Peso)` utilizada nas modelagens topológicas.
 ### COMO EXECUTAR? ###
+-> setup do ambiente virtual
 python3 -m venv ~/grafo_env 
 source ~/grafo_env/bin/activate
 pip install numpy>=2 pandas networkx matplotlib
