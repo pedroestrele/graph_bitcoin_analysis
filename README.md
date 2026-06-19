@@ -1,4 +1,4 @@
-# graph_bitcoin_analisys
+# graph_bitcoin_analysis
 # 🌐 Análise Estrutural e Topológica da Rede de Confiança Bitcoin Alpha
 
 
