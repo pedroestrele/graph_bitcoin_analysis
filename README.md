@@ -25,9 +25,11 @@ Os códigos foram divididos em *Jupyter Notebooks* focados em diferentes etapas:
 ### Datasets
 * `soc-sign-bitcoinalpha.csv`: Base de dados bruta original.
 * `grafo_sem_tempo.csv`: Base processada contendo a estrutura final `(Origem, Destino, Peso)` utilizada nas modelagens topológicas.
-### COMO RODAR?
-python3 -m venv ~/grafo_env
+### COMO EXECUTAR? ###
+python3 -m venv ~/grafo_env 
 source ~/grafo_env/bin/activate
 pip install numpy>=2 pandas networkx matplotlib
 pip install jupyterlab
 jupyter lab
+#
+além disso é intuitivo, apenas rodar as células de cada arquivo(individualmente ou em conjunto), alguns erros de biblioteca eventualmente aparecem, mas as partes que deram erro não foram as que foram usadas nos códigos(exemplo: Axes3D de Matplotlib)
