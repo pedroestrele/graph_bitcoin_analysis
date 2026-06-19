@@ -29,6 +29,5 @@ Os códigos foram divididos em *Jupyter Notebooks* focados em diferentes etapas:
 python3 -m venv ~/grafo_env
 source ~/grafo_env/bin/activate
 pip install numpy>=2 pandas networkx matplotlib
-# then launch jupyter from inside the venv:
 pip install jupyterlab
 jupyter lab
